@@ -1,0 +1,265 @@
+2017-05-03 17:21:33.167  INFO 2188 --- [main] com.shantanu.SpringBoot03Application     : Starting SpringBoot03Application on Santanu-PC with PID 2188 (D:\Software\spring-tool-suite-3.8.4.RELEASE-e4.6.3-win32-x86_64\Workspace\SpringBoot03\bin started by Santanu in D:\Software\spring-tool-suite-3.8.4.RELEASE-e4.6.3-win32-x86_64\Workspace\SpringBoot03)
+2017-05-03 17:21:33.167  INFO 2188 --- [main] com.shantanu.SpringBoot03Application     : No active profile set, falling back to default profiles: default
+2017-05-03 17:21:33.646  INFO 2188 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:21:33 BDT 2017]; root of context hierarchy
+2017-05-03 17:21:35.267  INFO 2188 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-03 17:21:35.277  INFO 2188 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-03 17:21:35.287  INFO 2188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-03 17:21:35.430  INFO 2188 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-03 17:21:35.430  INFO 2188 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1788 ms
+2017-05-03 17:21:35.612  INFO 2188 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-03 17:21:35.612  INFO 2188 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-03 17:21:35.612  INFO 2188 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-03 17:21:35.622  INFO 2188 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-03 17:21:35.622  INFO 2188 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-03 17:21:36.017  INFO 2188 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:21:33 BDT 2017]; root of context hierarchy
+2017-05-03 17:21:36.116  INFO 2188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shantanu.controller.HomeController.homePrint()
+2017-05-03 17:21:36.116  INFO 2188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.shantanu.controller.RegisterController.registrationPage()
+2017-05-03 17:21:36.116  INFO 2188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/register],methods=[POST]}" onto public java.lang.String com.shantanu.controller.RegisterController.userRegistration()
+2017-05-03 17:21:36.116  INFO 2188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-05-03 17:21:36.116  INFO 2188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-03 17:21:36.154  INFO 2188 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:21:36.154  INFO 2188 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:21:36.218  INFO 2188 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:21:36.796  INFO 2188 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-03 17:21:36.871  INFO 2188 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-03 17:21:36.881  INFO 2188 --- [main] com.shantanu.SpringBoot03Application     : Started SpringBoot03Application in 4.179 seconds (JVM running for 5.012)
+2017-05-03 17:21:50.352  INFO 2188 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-03 17:21:50.353  INFO 2188 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-05-03 17:21:50.379  INFO 2188 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2017-05-03 17:22:19.642  WARN 2188 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2017-05-03 17:22:34.162  WARN 2188 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2017-05-03 17:28:00.381  INFO 2188 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-05-03 17:28:00.381  INFO 2188 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:21:33 BDT 2017]; root of context hierarchy
+2017-05-03 17:28:00.381  INFO 2188 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-03 17:28:07.916  INFO 4128 --- [main] com.shantanu.SpringBoot03Application     : Starting SpringBoot03Application on Santanu-PC with PID 4128 (D:\Software\spring-tool-suite-3.8.4.RELEASE-e4.6.3-win32-x86_64\Workspace\SpringBoot03\bin started by Santanu in D:\Software\spring-tool-suite-3.8.4.RELEASE-e4.6.3-win32-x86_64\Workspace\SpringBoot03)
+2017-05-03 17:28:07.921  INFO 4128 --- [main] com.shantanu.SpringBoot03Application     : No active profile set, falling back to default profiles: default
+2017-05-03 17:28:08.235  INFO 4128 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:28:08 BDT 2017]; root of context hierarchy
+2017-05-03 17:28:09.974  INFO 4128 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-03 17:28:09.994  INFO 4128 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-03 17:28:09.994  INFO 4128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-03 17:28:10.154  INFO 4128 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-03 17:28:10.154  INFO 4128 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1924 ms
+2017-05-03 17:28:10.354  INFO 4128 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-03 17:28:10.354  INFO 4128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-03 17:28:10.354  INFO 4128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-03 17:28:10.354  INFO 4128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-03 17:28:10.354  INFO 4128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-03 17:28:10.720  INFO 4128 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:28:08 BDT 2017]; root of context hierarchy
+2017-05-03 17:28:10.830  INFO 4128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shantanu.controller.HomeController.homePrint()
+2017-05-03 17:28:10.830  INFO 4128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.shantanu.controller.RegisterController.registrationPage()
+2017-05-03 17:28:10.830  INFO 4128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/register],methods=[POST]}" onto public java.lang.String com.shantanu.controller.RegisterController.userRegistration()
+2017-05-03 17:28:10.830  INFO 4128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-05-03 17:28:10.830  INFO 4128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-03 17:28:10.880  INFO 4128 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:28:10.880  INFO 4128 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:28:10.930  INFO 4128 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:28:11.602  INFO 4128 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-03 17:28:11.700  INFO 4128 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-03 17:28:11.705  INFO 4128 --- [main] com.shantanu.SpringBoot03Application     : Started SpringBoot03Application in 4.217 seconds (JVM running for 4.982)
+2017-05-03 17:28:18.681  INFO 4128 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-03 17:28:18.681  INFO 4128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-05-03 17:28:18.715  INFO 4128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2017-05-03 17:28:18.755  WARN 4128 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2017-05-03 17:28:41.774 ERROR 4128 --- [http-nio-8080-exec-7] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-7] Exception processing template "registration": Error resolving template "layout/main", template might not exist or might not be accessible by any of the configured Template Resolvers (registration:4)
+2017-05-03 17:28:41.785 ERROR 4128 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template "layout/main", template might not exist or might not be accessible by any of the configured Template Resolvers (registration:4)] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "layout/main", template might not exist or might not be accessible by any of the configured Template Resolvers (registration:4)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:246) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateRepository$getTemplate.call(Unknown Source) ~[na:na]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48) ~[groovy-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113) ~[groovy-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-2.4.10.jar:2.4.10]
+	at nz.net.ultraq.thymeleaf.fragments.FragmentFinder.findFragmentTemplate(FragmentFinder.groovy:77) ~[thymeleaf-layout-dialect-1.4.0.jar:na]
+	at nz.net.ultraq.thymeleaf.fragments.FragmentFinder$findFragmentTemplate.call(Unknown Source) ~[na:na]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48) ~[groovy-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113) ~[groovy-2.4.10.jar:2.4.10]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-2.4.10.jar:2.4.10]
+	at nz.net.ultraq.thymeleaf.decorators.DecoratorProcessor.processAttribute(DecoratorProcessor.groovy:87) ~[thymeleaf-layout-dialect-1.4.0.jar:na]
+	at org.thymeleaf.processor.attr.AbstractAttrProcessor.doProcess(AbstractAttrProcessor.java:87) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.processor.AbstractProcessor.process(AbstractProcessor.java:212) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.dom.Node.applyNextProcessor(Node.java:1017) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.dom.Node.processNode(Node.java:972) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.dom.Node.processNode(Node.java:990) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.dom.Document.process(Document.java:93) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1155) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) ~[thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) ~[thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1282) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-05-03 17:31:23.009  INFO 4128 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-05-03 17:31:23.009  INFO 4128 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:28:08 BDT 2017]; root of context hierarchy
+2017-05-03 17:31:23.009  INFO 4128 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-03 17:32:06.925  INFO 6452 --- [main] com.shantanu.SpringBoot03Application     : Starting SpringBoot03Application on Santanu-PC with PID 6452 (D:\Software\spring-tool-suite-3.8.4.RELEASE-e4.6.3-win32-x86_64\Workspace\SpringBoot03\bin started by Santanu in D:\Software\spring-tool-suite-3.8.4.RELEASE-e4.6.3-win32-x86_64\Workspace\SpringBoot03)
+2017-05-03 17:32:06.929  INFO 6452 --- [main] com.shantanu.SpringBoot03Application     : No active profile set, falling back to default profiles: default
+2017-05-03 17:32:07.267  INFO 6452 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:32:07 BDT 2017]; root of context hierarchy
+2017-05-03 17:32:08.967  INFO 6452 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-03 17:32:08.987  INFO 6452 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-03 17:32:08.987  INFO 6452 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-03 17:32:09.161  INFO 6452 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-03 17:32:09.162  INFO 6452 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1899 ms
+2017-05-03 17:32:09.349  INFO 6452 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-03 17:32:09.360  INFO 6452 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-03 17:32:09.361  INFO 6452 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-03 17:32:09.362  INFO 6452 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-03 17:32:09.362  INFO 6452 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-03 17:32:09.713  INFO 6452 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:32:07 BDT 2017]; root of context hierarchy
+2017-05-03 17:32:09.803  INFO 6452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shantanu.controller.HomeController.homePrint()
+2017-05-03 17:32:09.813  INFO 6452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.shantanu.controller.RegisterController.registrationPage()
+2017-05-03 17:32:09.813  INFO 6452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/register],methods=[POST]}" onto public java.lang.String com.shantanu.controller.RegisterController.userRegistration()
+2017-05-03 17:32:09.813  INFO 6452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-05-03 17:32:09.813  INFO 6452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-03 17:32:09.871  INFO 6452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:32:09.872  INFO 6452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:32:09.915  INFO 6452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:32:10.708  INFO 6452 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-03 17:32:10.793  INFO 6452 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-03 17:32:10.793  INFO 6452 --- [main] com.shantanu.SpringBoot03Application     : Started SpringBoot03Application in 4.292 seconds (JVM running for 5.034)
+2017-05-03 17:32:16.741  INFO 6452 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-03 17:32:16.742  INFO 6452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-05-03 17:32:16.761  INFO 6452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2017-05-03 17:32:39.041  WARN 6452 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2017-05-03 17:33:57.920  INFO 6452 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-05-03 17:33:57.920  INFO 6452 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:32:07 BDT 2017]; root of context hierarchy
+2017-05-03 17:33:57.940  INFO 6452 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-03 17:34:51.888  INFO 6612 --- [main] com.shantanu.SpringBoot03Application     : Starting SpringBoot03Application on Santanu-PC with PID 6612 (D:\Software\spring-tool-suite-3.8.4.RELEASE-e4.6.3-win32-x86_64\Workspace\SpringBoot03\bin started by Santanu in D:\Software\spring-tool-suite-3.8.4.RELEASE-e4.6.3-win32-x86_64\Workspace\SpringBoot03)
+2017-05-03 17:34:51.893  INFO 6612 --- [main] com.shantanu.SpringBoot03Application     : No active profile set, falling back to default profiles: default
+2017-05-03 17:34:52.249  INFO 6612 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:34:52 BDT 2017]; root of context hierarchy
+2017-05-03 17:34:53.959  INFO 6612 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-03 17:34:53.969  INFO 6612 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-03 17:34:53.969  INFO 6612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-03 17:34:54.135  INFO 6612 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-03 17:34:54.135  INFO 6612 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1903 ms
+2017-05-03 17:34:54.337  INFO 6612 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-03 17:34:54.337  INFO 6612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-03 17:34:54.347  INFO 6612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-03 17:34:54.347  INFO 6612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-03 17:34:54.347  INFO 6612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-03 17:34:54.739  INFO 6612 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:34:52 BDT 2017]; root of context hierarchy
+2017-05-03 17:34:54.829  INFO 6612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shantanu.controller.HomeController.homePrint()
+2017-05-03 17:34:54.829  INFO 6612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.shantanu.controller.RegisterController.registrationPage()
+2017-05-03 17:34:54.829  INFO 6612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/register],methods=[POST]}" onto public java.lang.String com.shantanu.controller.RegisterController.userRegistration()
+2017-05-03 17:34:54.829  INFO 6612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-05-03 17:34:54.829  INFO 6612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-03 17:34:54.893  INFO 6612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:34:54.893  INFO 6612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:34:54.931  INFO 6612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:34:55.523  INFO 6612 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-03 17:34:55.597  INFO 6612 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-03 17:34:55.607  INFO 6612 --- [main] com.shantanu.SpringBoot03Application     : Started SpringBoot03Application in 4.173 seconds (JVM running for 5.011)
+2017-05-03 17:35:17.463  INFO 6612 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-03 17:35:17.464  INFO 6612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-05-03 17:35:17.491  INFO 6612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2017-05-03 17:38:59.074  INFO 6612 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-05-03 17:38:59.074  INFO 6612 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:34:52 BDT 2017]; root of context hierarchy
+2017-05-03 17:38:59.084  INFO 6612 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-03 17:39:08.587  INFO 7904 --- [main] com.shantanu.SpringBoot03Application     : Starting SpringBoot03Application on Santanu-PC with PID 7904 (D:\Software\spring-tool-suite-3.8.4.RELEASE-e4.6.3-win32-x86_64\Workspace\SpringBoot03\bin started by Santanu in D:\Software\spring-tool-suite-3.8.4.RELEASE-e4.6.3-win32-x86_64\Workspace\SpringBoot03)
+2017-05-03 17:39:08.597  INFO 7904 --- [main] com.shantanu.SpringBoot03Application     : No active profile set, falling back to default profiles: default
+2017-05-03 17:39:08.939  INFO 7904 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:39:08 BDT 2017]; root of context hierarchy
+2017-05-03 17:39:10.517  INFO 7904 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-03 17:39:10.537  INFO 7904 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-03 17:39:10.537  INFO 7904 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-03 17:39:10.690  INFO 7904 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-03 17:39:10.690  INFO 7904 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1755 ms
+2017-05-03 17:39:10.870  INFO 7904 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-03 17:39:10.880  INFO 7904 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-03 17:39:10.880  INFO 7904 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-03 17:39:10.880  INFO 7904 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-03 17:39:10.880  INFO 7904 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-03 17:39:11.242  INFO 7904 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:39:08 BDT 2017]; root of context hierarchy
+2017-05-03 17:39:11.368  INFO 7904 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shantanu.controller.HomeController.homePrint()
+2017-05-03 17:39:11.370  INFO 7904 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.shantanu.controller.RegisterController.registrationPage()
+2017-05-03 17:39:11.371  INFO 7904 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/register],methods=[POST]}" onto public java.lang.String com.shantanu.controller.RegisterController.userRegistration()
+2017-05-03 17:39:11.374  INFO 7904 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-05-03 17:39:11.374  INFO 7904 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-03 17:39:11.414  INFO 7904 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:39:11.414  INFO 7904 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:39:11.481  INFO 7904 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:39:12.048  INFO 7904 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-03 17:39:12.121  INFO 7904 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-03 17:39:12.131  INFO 7904 --- [main] com.shantanu.SpringBoot03Application     : Started SpringBoot03Application in 3.994 seconds (JVM running for 4.755)
+2017-05-03 17:39:21.832  INFO 7904 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-03 17:39:21.833  INFO 7904 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-05-03 17:39:21.860  INFO 7904 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2017-05-03 17:45:15.249  INFO 7904 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-05-03 17:45:15.249  INFO 7904 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:39:08 BDT 2017]; root of context hierarchy
+2017-05-03 17:45:15.249  INFO 7904 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-03 17:45:46.810  INFO 6580 --- [main] com.shantanu.SpringBoot03Application     : Starting SpringBoot03Application on Santanu-PC with PID 6580 (D:\Software\spring-tool-suite-3.8.4.RELEASE-e4.6.3-win32-x86_64\Workspace\SpringBoot03\bin started by Santanu in D:\Software\spring-tool-suite-3.8.4.RELEASE-e4.6.3-win32-x86_64\Workspace\SpringBoot03)
+2017-05-03 17:45:46.810  INFO 6580 --- [main] com.shantanu.SpringBoot03Application     : No active profile set, falling back to default profiles: default
+2017-05-03 17:45:47.164  INFO 6580 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:45:47 BDT 2017]; root of context hierarchy
+2017-05-03 17:45:48.858  INFO 6580 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-03 17:45:48.878  INFO 6580 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-03 17:45:48.878  INFO 6580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-03 17:45:49.034  INFO 6580 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-03 17:45:49.034  INFO 6580 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1880 ms
+2017-05-03 17:45:49.206  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-03 17:45:49.216  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-03 17:45:49.216  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-03 17:45:49.216  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-03 17:45:49.216  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-03 17:45:49.606  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:45:47 BDT 2017]; root of context hierarchy
+2017-05-03 17:45:49.682  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shantanu.controller.HomeController.homePrint()
+2017-05-03 17:45:49.682  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.shantanu.controller.RegisterController.registrationPage()
+2017-05-03 17:45:49.682  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/register],methods=[POST]}" onto public java.lang.String com.shantanu.controller.RegisterController.userRegistration(com.shantanu.dto.RegistrationForm,org.springframework.validation.BindingResult)
+2017-05-03 17:45:49.692  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-05-03 17:45:49.692  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-03 17:45:49.732  INFO 6580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:45:49.732  INFO 6580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:45:49.803  INFO 6580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-03 17:45:50.374  INFO 6580 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-03 17:45:50.455  INFO 6580 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-03 17:45:50.455  INFO 6580 --- [main] com.shantanu.SpringBoot03Application     : Started SpringBoot03Application in 4.087 seconds (JVM running for 4.864)
+2017-05-03 17:46:32.217  INFO 6580 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-03 17:46:32.217  INFO 6580 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-05-03 17:46:32.244  INFO 6580 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2017-05-03 17:47:30.865  INFO 6580 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-05-03 17:47:30.865  INFO 6580 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d706f19: startup date [Wed May 03 17:45:47 BDT 2017]; root of context hierarchy
+2017-05-03 17:47:30.865  INFO 6580 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
