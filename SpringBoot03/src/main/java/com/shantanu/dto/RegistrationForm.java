@@ -1,10 +1,24 @@
 package com.shantanu.dto;
 
+import javax.validation.constraints.Size;
+
+import org.hibernate.validator.constraints.Email;
+import org.hibernate.validator.constraints.NotEmpty;
+
 public class RegistrationForm {
+	@Email
+	@NotEmpty
+	@Size(max = 100)
 	private String email;
+	@NotEmpty
+	@Size(max = 100)
 	private String firstName;
+	@NotEmpty
+	@Size(max = 100)
 	private String lastName;
+	@NotEmpty
 	private String password;
+	@NotEmpty
 	private String passwordConfirmed;
 
 	public String getEmail() {

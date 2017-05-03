@@ -27,6 +27,9 @@ public class RegisterController {
 	@RequestMapping(value = "/user/register", method = RequestMethod.POST)
 	public String userRegistration( @Valid RegistrationForm registrationForm , BindingResult result) {
 		System.out.println("User Page");
+		if(result.hasErrors()) {
+			return "registration";
+		}
 		return "registration";
 	}
 }
