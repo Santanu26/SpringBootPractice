@@ -22,8 +22,10 @@ public class RegisterController {
 		return "registration";
 	}
 
+	
+	// GET Result from UI
 	@RequestMapping(value = "/user/register", method = RequestMethod.POST)
-	public String userRegistration(@Valid RegistrationForm registrationForm , BindingResult result) {
+	public String userRegistration( @Valid RegistrationForm registrationForm , BindingResult result) {
 		System.out.println("User Page");
 		return "registration";
 	}
