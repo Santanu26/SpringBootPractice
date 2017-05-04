@@ -14,14 +14,14 @@
 				<legend th:text="#{title.registrationForm}">User
 					Registration Form</legend>
 
-				<form class="form-horizontal" th:action="@{user/register}"
-					 method="post">
+				<form class="form-horizontal" role="form" th:action="@{/user/register}"
+					 th:object="${registrationForm}" method="post">
 					<div class="form-group">
 						<label for="email" class="col-sm-2 control-label">email</label>
 
 						<div class="col-sm-4">
-							<input type="email" class="form-control" id="email"
-								placeholder="email" />
+							<input type="text" class="form-control" id="email"
+								placeholder="email" th:field="*{email}" />
 						</div>
 					</div>
 
@@ -29,8 +29,8 @@
 						<label for="firstname" class="col-sm-2 control-label">firstname</label>
 
 						<div class="col-sm-4">
-							<input type="firstname" class="form-control" id="firstname"
-								placeholder="firstname" />
+							<input type="text" class="form-control" id="firstName"
+								placeholder="first name" th:field="*{firstName}"/>
 						</div>
 					</div>
 
@@ -38,8 +38,8 @@
 						<label for="lastname" class="col-sm-2 control-label">lastname</label>
 
 						<div class="col-sm-4">
-							<input type="lastname" class="form-control" id="lastname"
-								placeholder="lastname" />
+							<input type="text" class="form-control" id="lastName"
+								placeholder="last name" th:field="*{lastName}" />
 						</div>
 					</div>
 
@@ -48,7 +48,7 @@
 
 						<div class="col-sm-4">
 							<input type="password" class="form-control" id="password"
-								placeholder="password" />
+								placeholder="password" th:field="*{password}" />
 						</div>
 					</div>
 
@@ -56,8 +56,8 @@
 						<label for="confirmPassword" class="col-sm-2 control-label">confirmPassword</label>
 
 						<div class="col-sm-4">
-							<input type="confirmPassword" class="form-control"
-								id="confirmPassword" placeholder="confirmPassword" />
+							<input type="password" class="form-control"
+								id="passwordConfirmed" placeholder="Confirm Password" th:field="*{passwordConfirmed}" />
 						</div>
 					</div>
 
@@ -69,8 +69,16 @@
 
 				</form>
 			</fieldset>
+
+
 		</div>
+
+
+
 	</div>
+
+
+
 </body>
 
 </html>

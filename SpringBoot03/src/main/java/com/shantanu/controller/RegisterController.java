@@ -15,21 +15,18 @@ import com.shantanu.dto.RegistrationForm;
 @Controller
 public class RegisterController {
 	private static final Logger LOGGER = LoggerFactory.getLogger(RegisterController.class);
-
-	@RequestMapping(value = "/register", method = RequestMethod.GET)
-	public String registrationPage() {
-		LOGGER.debug("Rendering Registration Page...");
+	
+	@RequestMapping(value="/user/register", method = RequestMethod.GET)
+	public String showRegistrationPage(RegistrationForm registrationForm) {
+		LOGGER.debug("Rendering RegistrationPage.");
 		return "registration";
 	}
-
 	
-	// GET Result from UI
-	@RequestMapping(value = "/user/register", method = RequestMethod.POST)
-	public String userRegistration( @Valid RegistrationForm registrationForm , BindingResult result) {
-		System.out.println("User Page");
-		if(result.hasErrors()) {
-			return "registration";
-		}
+	
+	@RequestMapping(value="/user/register", method = RequestMethod.POST)
+	public String registerUserAccount(@Valid RegistrationForm registrationForm,
+			BindingResult result) {
+		System.out.println("From RegistrationController: " + registrationForm);
 		return "registration";
 	}
 }
