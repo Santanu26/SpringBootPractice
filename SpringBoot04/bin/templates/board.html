@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
 	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-	xmlns:th="http://www.thymeleaf.org" layout:decorator="layout/main">
+	layout:decorator="layouts/main">
 
 <head>
-	<title>Board</title>
-	<link href="css/carousel.css" th:href="@{css/carousel.css}" rel="stylesheet" />
+
+<title>Board</title>
+	<link rel="stylesheet" href="css/carousel.css"
+		th:href="@{/css/carousel.css}" />
+
 </head>
-<!-- NAVBAR
-================================================== -->
-	<body>
-		<div layout:fragment="content">
-			<div class = "container">
+
+<body>
+	<div layout:fragment="content">
+		<div class="container">
 			<br /><br /><br />
-				<h1 th:text = "${boardName}">Board View Page...</h1>			
+			<h1 th:text="${boardName}">School Board Page</h1>
+			
+			<br />
+			<h3>Content:</h3>
+			<span th:text="${boardContent}">Content Goes Here</span>
 		</div>
-		</div>
-	</body>
+	</div>
+</body>
 </html>

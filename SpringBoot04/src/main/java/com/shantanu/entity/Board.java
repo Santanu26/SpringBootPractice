@@ -33,8 +33,6 @@ public class Board extends BaseEntity<Long> {
 	public Board() {
 	}
 
-	
-
 	public Board(Long id, String name, String password, String content) {
 		this.id = id;
 		this.name = name;
